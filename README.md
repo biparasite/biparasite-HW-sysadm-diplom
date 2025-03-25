@@ -223,7 +223,7 @@ Apply complete! Resources: 31 added, 0 changed, 0 destroyed.
 
 #ОЧЕНЬ ДОРОГО, за час больше 200р, поэтому выключил .
 
-![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/biparasite-HW-sysadm-diplom/blob/main/rental.png)
+![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/biparasite-HW-sysadm-diplom/blob/main/yc.png)
 
 ![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/biparasite-HW-sysadm-diplom/blob/main/ip.png)
 
