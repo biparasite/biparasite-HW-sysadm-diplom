@@ -219,4 +219,11 @@ Apply complete! Resources: 31 added, 0 changed, 0 destroyed.
 
 </details>
 
-После развертывания Firewall, он же Бастион, туда скопирован ключ ssh и папка ansible. С данной VM все  устанавливалось через ansible.
+После развертывания Firewall, он же Бастион, туда скопирован ключ ssh и папка ansible. С данной VM все устанавливалось через ansible.
+
+#ОЧЕНЬ ДОРОГО, за час больше 200р, поэтому выключил .
+![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/HW-sysadm-diplom/blob/main/rental.png)
+
+![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/HW-sysadm-diplom/blob/main/ip.png)
+
+![ОЧЕНЬ ДОРОГО](https://github.com/biparasite/HW-sysadm-diplom/blob/main/grafana.png)
