@@ -1,0 +1,24 @@
+- name: Install Nginx and Upload Site
+  hosts: web
+  become: yes
+  tasks:
+    - name: Update apt
+      apt:
+        update_cache: yes
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: latest
+    - name: Copy index page
+      template:
+        src: index.html.j2
+        dest: /var/www/html/index.html
+        backup: true
+  handlers:
+    - name: Reload
+      service:
+        name: nginx
+        state: reloaded
+    - name: Start service tuned, if not started
+      ansible.builtin.service:
+        enabled: yes

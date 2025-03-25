@@ -1,0 +1,21 @@
+- name: Install grafana
+  hosts: grafana
+  become: yes
+  become_user: root
+  tasks:
+    - name: copy grafana file
+      copy:
+        src: grafana-enterprise_11.5.2_amd64.deb
+        dest: /root/grafana-enterprise_11.5.2_amd64.deb
+        backup: true
+    - name: install grafana
+      apt:
+        deb: "/root/grafana-enterprise_11.5.2_amd64.deb"
+    - name: update
+      apt:
+        update_cache: yes
+    - name: daemon reload
+      systemd:
+        daemon_reload: true
+        name: grafana-server.service
+        state: started
