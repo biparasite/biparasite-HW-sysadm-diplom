@@ -219,4 +219,4 @@ Apply complete! Resources: 31 added, 0 changed, 0 destroyed.
 
 </details>
 
-После развертывания Firewall, он же Бастион, скопирован ключ ssh и папка ansible, с него все уже устанавливалось.
+После развертывания Firewall, он же Бастион, туда скопирован ключ ssh и папка ansible. С данной VM все  устанавливалось через ansible.
